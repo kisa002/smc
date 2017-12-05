@@ -1,0 +1,278 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Splendid Movement Creators</title>
+		
+		<link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/nanumgothic.css">
+		
+		<style>
+			body
+			{
+				margin: auto;
+				
+				font-family: "NanumGothicOTF", sans-serif;
+				font-weight: bold;
+			}
+			
+			#top
+			{
+				background-image: url("img/top.png");
+				background-repeat:no-repeat;
+				background-size: 100% 100%;
+				
+				width: 100%;
+				height: 80%;
+			}
+			
+			#main
+			{
+				background-image: url("img/main.png");
+				background-repeat:no-repeat;
+				background-size: 100% 100%;
+				
+				width: 100%;
+				height: 80%;
+				
+				float: left;
+			}
+			
+			#introduce
+			{
+				background-image: url("img/introduce.png");
+				background-repeat:no-repeat;
+				background-size: 100% 100%;
+				
+				width: 100%;
+				height: 400%;
+			}
+			
+			#jammers
+			{
+				margin-top: 2%;
+			}
+			
+			#contact
+			{
+				margin-top: 5%;
+			}
+			
+			#footer
+			{
+				margin-bottom: 5%;
+			}
+			
+			.menu
+			{
+				float: left;
+				
+				margin-top: 1%;
+				margin-left: 8%;
+				
+				text-align: center;
+				
+				font-size: 25px;
+			}
+			
+			.jammers_banner
+			{
+				width: 90%;
+				height: 80%;
+				
+				margin-bottom: 5%;
+			}
+			
+			.gamejam_image
+			{
+				width: 80%;
+				height: 20%;
+				
+				margin-top: 5%;
+				
+				margin-left: 10%;
+				margin-right: 10%;
+			}
+			
+			.game_image
+			{
+				width: 80%;
+				height: 20%;
+				
+				margin-top: 5%;
+				
+				margin-left: 10%;
+				margin-right: 10%;
+			}
+			
+			.news_text
+			{
+				font-size: 28px;
+				text-align: left;
+				
+				margin-top: 5%;
+				margin-left: 20%;
+				margin-right: 20%;
+			}
+			
+			.banner_contact1
+			{				
+				width: 50%;
+				height: 20%;
+			}
+			
+			.banner_contact2
+			{
+				float: right;
+				
+				width: 50%;
+				height: 20%;
+			}
+			
+			a
+			{
+				color: #000000;
+				text-decoration: none;
+			}
+		</style>
+		
+		<script type="text/javascript">
+			function show_main()
+			{
+				hide_all();
+				
+				document.getElementById("main").style.display = "block";
+			}
+			
+			function show_introduce()
+			{
+				hide_all();
+				
+				document.getElementById("introduce").style.display = "block";
+			}
+			
+			function show_jammers()
+			{
+				hide_all();
+				
+				document.getElementById("jammers").style.display = "block";
+			}
+			
+			function show_gamejam()
+			{
+				hide_all();
+				
+				document.getElementById("gamejam").style.display = "block";
+			}
+			
+			function show_games()
+			{
+				hide_all();
+				
+				document.getElementById("games").style.display = "block";
+			}
+			
+			function show_news()
+			{
+				hide_all();
+				
+				document.getElementById("news").style.display = "block";
+			}
+			
+			function show_contact()
+			{
+				hide_all();
+				
+				document.getElementById("contact").style.display = "block";
+			}
+			
+			function hide_all()
+			{
+				document.getElementById("main").style.display = "none";
+				document.getElementById("jammers").style.display = "none";
+				document.getElementById("introduce").style.display = "none";
+				document.getElementById("gamejam").style.display = "none";
+				document.getElementById("games").style.display = "none";
+				document.getElementById("news").style.display = "none";
+				document.getElementById("contact").style.display = "none";
+			}
+			
+			function show_error()
+			{
+				alert("개발이 안됬다고나 할까요...?");
+			}
+		</script>
+	</head>
+	
+	<body onload="show_main()">
+		<section id="top" name="top">
+			<dl>
+				<dt class="menu" onclick="show_introduce()"><a href="#introduce">S.M.C.</a></dt>
+				<dt class="menu" onclick="show_jammers()"><a href="#jammers">Jammers</a></dt>
+				<dt class="menu" onclick="show_gamejam()"><a href="#gamejam">GameJam</a></dt>
+				<dt class="menu" onclick="show_games()"><a href="#games">Games</a></dt>
+				<dt class="menu" onclick="show_news()"><a href="#news">News</a></dt>
+				<dt class="menu" onclick="show_contact()"><a href="#contact">Contact Us</a></dt>
+			</dl>
+		</section>
+		
+		<section id="main">
+			
+		</section>
+		
+		<section id="introduce" name="introduce">
+			
+		</section>
+		
+		<section id="jammers" name="jammers">
+			<table>
+				<tr align="center">
+					<td><a href="https://www.facebook.com/livefreelygames/"><img src="img/jammer1.png" class="jammers_banner"></a></td>
+					<td><a href="https://hagler445.wixsite.com/gamejamer/jamer-10-choijungsoo"><img src="img/jammer2.png" class="jammers_banner"></a></td>
+				</tr>
+				
+				<tr align="center">
+					<td><a href=""><img src="img/jammer3.png" class="jammers_banner"></a></td>
+					<td><a href="http://www.bbangwon.com/"><img src="img/jammer4.png" class="jammers_banner"></a></td>
+				</tr>
+				
+				<tr align="center">
+					<td><a href="https://www.twitch.tv/picassogoh"><img src="img/jammer5.png" class="jammers_banner"></a></td>
+					<td><a href="http://blog.naver.com/fkgustn1"><img src="img/jammer6.png" class="jammers_banner"></a></td>
+				</tr>
+			</table>
+		</section>
+		
+		<section id="gamejam" name="gamejam">
+			<a href="#gamejam" onclick="show_error()"><img src="img/banner_oh_gamejam.png" class="gamejam_image"></a>
+			<a href="#gamejam" onclick="show_error()"><img src="img/banner_soso_gamejam.png" class="gamejam_image"></a>
+		</section>
+		
+		<section id="games" name="games">
+			<a href="https://hagler445.wixsite.com/gamejamer/games-webplay"><img src="img/game1.png" class="game_image"></a>
+			<a href="https://hagler445.wixsite.com/gamejamer/news"><img src="img/game2.png" class="game_image"></a>
+		</section>
+		
+		<section id="news" name="news">
+			<div class="news_text">
+				2018년 1월 26-28일 글로벌게임잼 에이큐브에서 진행 예정<br>
+				 - 저희가 간식은 준비할 수 있지만 식사 준비는 못할지도 모릅니다...ㅠ_ㅠ<br>
+				 - 후원 받아요<br>
+				 - 필요에 따라서 의정부, 인천, 강남 부근은 차로 픽업 가능?<br><br>
+				​
+				2018년 2월 혹은 3월에 제 2 회 소소한 게임잼 개최 예정<br>
+				 - 간식은 준비할 거고, 장소는 아마 에이큐브로?<br>
+				 - 후원 받아요 <br><br>
+				 
+				2018년 4월 쯤에는 에이큐브에서 제 5 회 에이큐브 게임잼이 열릴겁니다?<br>
+			</div>
+		</section>
+		
+		<section id="contact" name="contact">
+			<img src="img/banner_contact1.png" class="banner_contact1">
+			<img src="img/banner_contact2.png" class="banner_contact2">
+		</section>
+		
+		<section id="footer" name="footer">
+			
+		</section>
+	</body>
+</html>
